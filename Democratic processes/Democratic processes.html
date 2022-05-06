@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+    <style>
+      html {
+          font-size: 1.0em;
+      }
+
+      h1 {
+          font-size: 1.7em;
+      }
+
+      h2 {
+          font-size: 1.4em;
+      }
+
+
+      *{font-family: "Calibri";}
+
+    </style>
+
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
+  <body>
+
+    <!-- Add your site or application content here -->
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <main>
+        <h1>Sports Governance Observer</h1>
+        <br>
+        <div  id="oversigt"></div>
+
+        <div class="row g-5" id="indhold"></div>
+
+        <button type="button" class="btn btn-primary btn-lg" onclick="indsendSvar()" id="knap">Calculate dimension score</button>
+        <br>
+        <button type="button" class="btn btn-secondary btn-lg" onclick="generateOverview()" id="knap2">Start over</button>
+
+
+        <div id="status">
+        </div>
+      </main>
+
+      <footer class="pt-5 my-5 text-muted border-top">
+        Play the Game 2021
+      </footer>
+    </div>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/scores_original.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/test.js"></script>
+  </body>
+
+</html>
